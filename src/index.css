@@ -1,0 +1,239 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* dispositivos móviles a partir de 320 px */
+@media screen and (max-width: 768px) {
+  .footer-content{
+    display: none !important;
+  }
+  .contacto-hidden{
+    display: none;
+  }
+
+  .contacto{
+    float: right;
+    font-weight: 700px;
+    letter-spacing: -3px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif!important;
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 30;
+  }
+  .contacto h3{
+    font-size: 60px;
+    margin-right: 30px;
+  }
+
+  
+}
+
+/* If screen size is more than 768px wide and is 1440px or less*/
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .contacto{
+    float: right;
+    font-weight: 700px;
+    letter-spacing: -3px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif!important;
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 30;
+  }
+  .contacto h3{
+    font-size: 126px;
+    margin-right: 30px;
+  }
+  
+}
+
+/* If screen size is more than 1440px */
+@media screen and (min-width: 1440px) {
+  .contacto{
+    float: right;
+    font-weight: 700px;
+    letter-spacing: -3px;
+    text-align: right;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif!important;
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 30;
+  }
+  .contacto h3{
+    font-size: 80px;
+    margin-right: 30px;
+  }
+}
+
+
+
+#headerVass {
+  background: url(../src/assets/img/Fondo.PNG) no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  background-attachment: fixed;
+  width: 100%;
+     
+}
+
+
+.bg-dark{
+  background: url(../src/assets/img/Fondo.PNG) no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  position: fixed;
+  background-attachment: fixed;
+  z-index: 20;
+  width: 100%;  
+}
+
+.bg-background{
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  background-color: black;  
+}
+
+
+.anuncio1{
+  font-weight: bold;
+  
+}
+
+.anuncio2{
+  text-align: left;
+  border-left: 1px solid #000;  
+}
+.anuncio3{
+  text-align: left;
+}
+.anuncio4{
+  text-align: right;
+  padding-right: 2%;
+ 
+}
+
+.form{
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+
+.form  textarea{
+  color: white !important;
+}
+
+.inputForm{
+  border: solid 1px white !important;
+    border-width: 0 0 1px 0 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 !important;
+    display: block !important;
+    font-size: 15px !important;
+    height: 45px !important;
+    line-height:  1!important;
+    padding: 5px 20px 20px 14px;
+    width: 100%;
+    box-shadow: none !important;
+    color:white !important;
+} 
+.button{
+  border: 1px solid white!important;
+  cursor: pointer;
+  color: white;
+  border-radius: 100%!important;
+  height: 125px;
+  width: 125px;
+  top: -15px;
+  position: relative;
+  background-color: transparent!important;
+}
+
+.mensaje{
+  background-color: transparent !important;
+
+}
+
+.mensajeError{
+  color: white;
+  margin-left: 7%;
+}
+
+.containerFooter{
+  background-color: #242424;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.containerFooter2{
+  background-color: #242424;
+  color: white;
+}
+
+.ListaFooter{
+  list-style: none;
+  padding: 0px;
+  
+}
+
+.ListaFooter2{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+  
+}
+
+.ListaFooter2 li{
+  padding-left: 2%;
+  padding-right: 1%;
+  border-left: 1px solid white;
+    
+
+}
+
+.iconos img{
+  background-color: #242424;
+  width: 25px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.footer-content{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
