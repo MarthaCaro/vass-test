@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import imagen from "../../assets/img/LogoER.png"
+import imagen from "../../assets/img/imagener.png"
 import Row from 'react-bootstrap/Row';
 import instagram from "../../assets/img/ico-instagram.png"
 
